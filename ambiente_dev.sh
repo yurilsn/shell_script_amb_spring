@@ -24,8 +24,8 @@ if [[ "Yy" == *"${confirmacao^^}"* ]] || [[ "" == *"${confirmacao^^}"* ]]; then
 
 fi
 
-read -p "Clique em Y caso não possua o intellij na sua máquina para instala-lo, caso possua ou prefere usar sua própria IDE(configure por sua própria conta) clique em N (Y/N): " confirmacao
 
+read -p "Clique em Y caso não possua o intellij na sua máquina para instala-lo, caso possua ou prefere usar sua própria IDE(configure por sua própria conta) clique em N (Y/N):" confirmacao
 
 if [[ "Yy" == *"${confirmacao^^}"* ]] || [[ "" == *"${confirmacao^^}"* ]]; then
 
